@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: iot-lhc-speech-to-text
+  host: iot-lhc-speech-to-text
+  disk_quota: 1024M
+  services:
+  - iot-lhc-speech-to-text-cloudantNoSQLDB
+  - iot-lhc-speech-to-text-iotf-service
